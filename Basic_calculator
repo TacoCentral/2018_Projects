@@ -1,0 +1,14 @@
+math = raw_input('Choose one of these -> +, -, *, /: ')
+num1 = raw_input('Enter your first number: ')
+num2 = raw_input('Enter your second number: ')
+
+if math == '+':
+  print float(num1) + float(num2)
+elif math == '-':
+  print float(num1) - float(num2)
+elif math == '*':
+  print float(num1) * float(num2)
+elif math == '/':
+  print float(num1) / float(num2)
+else:
+  print 'Please choose a correct symbol'
